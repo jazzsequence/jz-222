@@ -1,0 +1,160 @@
+{
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"duotone": [
+				{
+					"colors": [ "#dd0531", "#61dafb" ],
+					"slug": "angular-vs-react",
+					"name": "Angular vs React"
+				},
+				{
+					"colors": [ "#f9e64f", "#181d21" ],
+					"slug": "javascript-and-pantheon",
+					"name": "JavaScript and Pantheon"
+				},
+				{
+					"colors": [ "#d9411e", "#42b883" ],
+					"slug": "solr-and-vue",
+					"name": "Solr and Vue"
+				},
+				{
+					"colors": [ "#dd0531", "#42b883" ],
+					"slug": "angular-vs-vue",
+					"name": "Angular vs Vue"
+				},
+				{
+					"colors": [ "#61dafb", "#181d21" ],
+					"slug": "react-and-pantheon",
+					"name": "React and Pantheon"
+				},
+				{
+					"colors": [ "#f9e64f", "#61dafb" ],
+					"slug": "javascript-and-react",
+					"name": "Javascript and React"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "vertical-javascript-to-svelte",
+					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--javascript-yellow) 0%,var(--wp--preset--color--svelte-orange) 100%)",
+					"name": "Vertical JavaScript to Svelte"
+				},
+				{
+					"slug": "vertical-angular-to-pantheon",
+					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--angular-red) 0%,var(--wp--preset--color--pantheon-black) 100%)",
+					"name": "Vertical Angular to Pantheon"
+				},
+				{
+					"slug": "vertical-azure-to-pantheon",
+					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--azure-blue) 0%,var(--wp--preset--color--pantheon-black) 100%)",
+					"name": "Vertical Azure to Pantheon"
+				},
+				{
+					"slug": "diagonal-javascript-to-svelte",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--javascript-yellow) 0%,var(--wp--preset--color--svelte-orange) 100%)",
+					"name": "Diagonal JavaScript to Svelte"
+				},
+				{
+					"slug": "diagonal-angular-to-pantheon",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--angular-red) 50%,var(--wp--preset--color--pantheon-black) 50%)",
+					"name": "Diagonal Angular to Pantheon"
+				},
+				{
+					"slug": "diagonal-azure-to-pantheon",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--azure-blue) 50%,var(--wp--preset--color--pantheon-black) 50%)",
+					"name": "Diagonal Azure to Pantheon"
+				},
+				{
+					"slug": "diagonal-node-to-vue",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--node-green) 50%,var(--wp--preset--color--vue-green) 50%)",
+					"name": "Diagonal Node to Vue"
+				},
+				{
+					"slug": "diagonal-javascript-to-react",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--javascript-yellow) 50%,var(--wp--preset--color--react-blue) 50%)",
+					"name": "Diagonal JavaScript to React"
+				}
+			],
+			"palette": [
+				{
+					"slug": "angular-red",
+					"color": "#dd0531",
+					"name": "Angular Red"
+				},
+				{
+					"slug": "azure-blue",
+					"color": "#007fff",
+					"name": "Azure Blue"
+				},
+				{
+					"slug": "javascript-yellow",
+					"color": "#f9e64f",
+					"name": "JavaScript Yellow"
+				},
+				{
+					"slug": "mandalorian-blue",
+					"color": "#1857a4",
+					"name": "Mandalorian Blue"
+				},
+				{
+					"slug": "node-green",
+					"color": "#215732",
+					"name": "Node Green"
+				},
+				{
+					"slug": "react-blue",
+					"color": "#61dafb",
+					"name": "React Blue"
+				},
+				{
+					"slug": "svelte-orange",
+					"color": "#ff3d00",
+					"name": "Svelte Orange"
+				},
+				{
+					"slug": "vue-green",
+					"color": "#42b883",
+					"name": "Vue Green"
+				}, {
+					"slug": "solr-red",
+					"color": "#D9411E",
+					"name": "Solr Red"
+				},
+				{
+					"slug": "pantheon-black",
+					"color": "#181d21",
+					"name": "Pantheon Black"
+				}
+			]
+		},
+		"custom": {}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"color": {
+					"background": "var(--wp--preset--color--javascript-yellow)",
+					"text": "var(--wp--preset--color--pantheon-black)"
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--pantheon-black)",
+			"text": "var(--wp--preset--color--javascript-yellow)"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--svelte-orange)"
+				}
+			},
+			"figcaption": {
+				"color": {
+					"text": "var(--wp--preset--color--javascript-yellow)"
+				}
+			}
+		}
+	}
+}
