@@ -1,0 +1,14 @@
+{
+    "name": "jazzsequence/jz-222",
+    "description": "Experimental child theme for Twenty Twenty-Two",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Reynolds",
+            "email": "chris@jazzsequence.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
